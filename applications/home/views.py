@@ -34,3 +34,9 @@ class PruebaCreateView(CreateView):
     form_class = PruebaForm
     success_url = reverse_lazy('persona_app:empleados_all')
 
+
+class ListaFotos(TemplateView):
+    template_name = "home/lista_fotos.html"
+
+
+

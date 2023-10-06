@@ -12,4 +12,9 @@ urlpatterns = [
         views.ResumenFoundationView.as_view(),
         name = 'resumen_foundation'
     ),
+    path(
+        'lista-fotos/', 
+        views.ListaFotos.as_view(),
+        name='lista-fotos'
+    ),
 ]
